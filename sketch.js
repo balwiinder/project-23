@@ -95,7 +95,9 @@ function keyPressed(){
 	  }
 	   if(keyCode===LEFT_ARROW){
 		 helicoptersprite.x=helicoptersprite.x-20;
-		   Matter.Body.setStatic(package=Body,false);
+		   translation={x:-20,y:0};
+               Matter.Body.translate(packageBody,translation);
+		 
 	   }
 	
 

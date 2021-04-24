@@ -89,12 +89,12 @@ function keyPressed(){
 	}
 
 	if(keyCode===RIGHT_ARROW){
-		helicopterSprite.x=helicoptersprite.x+20;
+		helicopterSprite.x=helicopterSprite.x+20;
 		translation={x:20,y:0};
 		Matter.Body.translate(packageBody,translation);
 	  }
 	   if(keyCode===LEFT_ARROW){
-		 helicoptersprite.x=helicoptersprite.x-20;
+		 helicopterSprite.x=helicopterSprite.x-20;
 		   translation={x:-20,y:0};
                Matter.Body.translate(packageBody,translation);
 		 
